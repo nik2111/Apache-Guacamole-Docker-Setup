@@ -1,8 +1,8 @@
 # Apache-Guacamole-Docker-Setup
-GUAC_FRONTEND=guacamole1.3.0 \n
-GUAC_BACKEND=guacd1.3.0
-GUAC_DATABASE=guac-database-postgress
-GUAC_PASSWORD=
+ GUAC_FRONTEND=guacamole1.3.0
+ GUAC_BACKEND=guacd1.3.0
+ GUAC_DATABASE=guac-database-postgress
+ GUAC_PASSWORD=
 
 deploy the guacd container
 sudo docker run -d --name $GUAC_BACKEND guacamole/guacd:1.3.0
