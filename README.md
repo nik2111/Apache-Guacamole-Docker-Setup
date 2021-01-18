@@ -1,5 +1,5 @@
 # Apache-Guacamole-Docker-Setup
-GUAC_FRONTEND=guacamole1.3.0
+GUAC_FRONTEND=guacamole1.3.0 \n
 GUAC_BACKEND=guacd1.3.0
 GUAC_DATABASE=guac-database-postgress
 GUAC_PASSWORD=
