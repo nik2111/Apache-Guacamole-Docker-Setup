@@ -1,5 +1,7 @@
-Guacamole actually consists of three parts the guacamole frontend, the backend and the database. For more in depth understanding please refer the [manual](https://guacamole.apache.org/doc/gug/guacamole-architecture.html) 
-[[File:Guacamole overview.jpg|thumb|center|Guacamole overview]]
+Guacamole actually consists of three parts the guacamole frontend, the backend and the database. The figure below gives an idea. For more in depth understanding please refer the [manual](https://guacamole.apache.org/doc/gug/guacamole-architecture.html) 
+
+![Guacamole overvew](https://guacamole.apache.org/doc/gug/_images/guac-arch.png)
+
 Create the following environment varaiables that represent the container names for the guacamole setup. The password for the database should be saved in GUAC_PASSWORD
 
 
